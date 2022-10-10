@@ -20,8 +20,8 @@ const getZip = (req, res) => {
   rimraf.sync(source)
   ghdownload(
     {
-      user: 'DevinVinson',
-      repo: 'WordPress-Plugin-Boilerplate',
+      user: 'KiwiChat',
+      repo: 'wpb',
       ref: 'master',
     },
     source,
