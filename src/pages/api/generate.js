@@ -9,7 +9,7 @@ import ghdownload from '../../lib/github-download'
 import getDefaultValues from '../../lib/get-default-values'
 import walker from '../../lib/walker'
 
-const visitor = ua('UA-56742268-1')
+const visitor = ua('UA-')
 const tmpFolder = '/tmp'
 const source = path.join(tmpFolder, 'source')
 
