@@ -19,12 +19,12 @@ export default function Document(props) {
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'GTM-W4RRC9W');
+          gtag('config', 'GTM-');
         `}
         </Script>
       </Head>
       <body className="flex h-full flex-col">
-        <Script src="https://www.googletagmanager.com/gtag/js?id=GTM-W4RRC9W" strategy="afterInteractive" />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=GTM-" strategy="afterInteractive" />
         <Main />
         <NextScript />
       </body>
